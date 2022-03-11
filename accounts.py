@@ -1,5 +1,5 @@
-import Functions.Math_Functions as math
+from Functions.Car import Carro
 
-a = math.Operators
-
-print(len(a))
+b = Carro("Ford Focus", "Blue")
+print(b.marca)
+print(b.color)
